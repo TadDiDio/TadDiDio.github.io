@@ -1,13 +1,15 @@
 ---
-layout: tags
-icon: fas fa-tags
+layout: projects
+icon: fas fa-box
 order: 2
+title: "Projects"
+permalink: /projects/
 ---
 
 ## All Projects
 
 <ul>
-  {% assign all_projects = site.projects | sort: 'date' %}
+  {% assign all_projects = site.posts | sort: 'date' %}
   {% for project in all_projects %}
     <li>
       <h2><a href="{{ project.url | relative_url }}">{{ project.title }}</a></h2>
