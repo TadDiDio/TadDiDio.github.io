@@ -13,7 +13,7 @@ I developed an augmented reality tutorial system which uses AI to locate objects
 
 The demo we created was a mock walk-through of adjusting the valves in a plumbing system. Our product would scan the work area and first find the valve they should be adjusting, then highlight it on their vision and provide a tooltip telling what to do with it.
 
-<iframe width="560" height="315" src="https://youtube.com/shorts/4O7g0mJ1wfA?si=KkJrzRiT5qmlkpbF" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://youtube.com/embed/4O7g0mJ1wfA?si=KkJrzRiT5qmlkpbF" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 
 ## Motivation
