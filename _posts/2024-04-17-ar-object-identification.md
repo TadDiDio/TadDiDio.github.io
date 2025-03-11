@@ -4,6 +4,7 @@ title: "Senior Design - Augmented Reality Real World Tutorials"
 date: 2024-04-17
 categories: [Portfolio, VT]
 order: 2
+description: My senior design project, an augmented reality real time, real space tutorial tool.
 ---
 
 

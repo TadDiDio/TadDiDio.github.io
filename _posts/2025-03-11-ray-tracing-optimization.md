@@ -4,6 +4,7 @@ title: "Master's Thesis - Ray Tracing Optimization"
 date: 2025-03-11
 categories: [Portfolio, VT]
 order: 3
+description: A survey of my master's thesis work.
 ---
 
 

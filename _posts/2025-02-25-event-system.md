@@ -4,6 +4,7 @@ title: "Event System as Middleware"
 date: 2025-02-25
 categories: [Portfolio]
 order: 7
+description: An event system package I wrote to act as middleware between components in a Unity application.
 ---
 
 

@@ -4,6 +4,7 @@ title: "General, Hierarchical State Machine"
 date: 2025-02-12
 categories: [Portfolio]
 order: 9
+description: A package I wrote to reduce boiler plate code when making hierarchical state machines.
 ---
 
 
