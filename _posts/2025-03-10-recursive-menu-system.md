@@ -3,7 +3,6 @@ layout: post
 title: "Recursive Menu System"
 date: 2025-03-10
 categories: [Portfolio, Game Development]
-tags: [project]
 order: 8
 ---
 

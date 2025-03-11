@@ -3,7 +3,6 @@ layout: post
 title: "Master's Thesis - Ray Tracing Optimization"
 date: 2025-03-11
 categories: [Portfolio, VT]
-tags: [project]
 order: 3
 ---
 

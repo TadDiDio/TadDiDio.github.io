@@ -3,7 +3,6 @@ layout: post
 title: "RockSat-X at Virginia Tech"
 date: 2022-07-10
 categories: [Hardware]
-tags: [project]
 order: 10
 ---
 

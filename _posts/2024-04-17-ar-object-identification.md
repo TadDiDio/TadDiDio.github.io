@@ -3,7 +3,6 @@ layout: post
 title: "Senior Design - Augmented Reality Real World Tutorials"
 date: 2024-04-17
 categories: [Portfolio, VT]
-tags: [project, seniordesign]
 order: 2
 ---
 
