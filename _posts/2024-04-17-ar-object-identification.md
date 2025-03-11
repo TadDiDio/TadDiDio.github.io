@@ -8,7 +8,7 @@ order: 2
 
 
 ## About
-I developed an augmented reality tutorial system which uses AI to locate objects in the real world and give information to the user about how to perform tasks. This was done with a small team as our senior design project and allowed a user to put on an augmented reality headset (a Magic Leap 2) and view the world with custom overlays informing them on how to complete a process. The user would simply scan a QR code which contained instructions for their task, then look at the task area in front of them and receive instructions. 
+I developed an augmented reality tutorial system which uses AI to locate objects in the real world and give information to the user about how to perform tasks. This was done with a small team as our senior design project and allowed a user to put on an augmented reality headset (a Magic Leap 2) and view the world with custom overlays informing them on how to complete a process. The user would simply scan a QR code which contained instructions for their task, then look at the task area in front of them and receive instructions. Our project won the Best in Track award in the Virginia Tech Senior Design Expo which is awarded to the best project in its related area.
 
 The demo we created was a mock walk-through of adjusting the valves in a plumbing system. Our product would scan the work area and first find the valve they should be adjusting, then highlight it on their vision and provide a tooltip telling what to do with it.
 

@@ -1,7 +1,7 @@
 ---
 layout: projects
 icon: fas fa-box
-order: 2
+order: 1
 title: "Projects"
 permalink: /projects/
 ---

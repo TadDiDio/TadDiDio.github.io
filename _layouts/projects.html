@@ -32,10 +32,8 @@ all_normal[i] %} {% endfor %} {% endif %}
 <hr style ="border: 0; border-top: 3px solid #333; margin: 20px 0; width: 80%;">
 <p>Below is a list of all my projects from recent years.</p>
 
-<h2>Highlighted Projects</h2>
-<hr style ="border: 0; border-top: 3px solid #333; margin: 20px 0; width: 80%;">
 <div id="post-list" class="flex-grow-1 px-xl-1">
-    {% assign ordered_posts = site.posts | sort: 'date' %}
+    {% assign ordered_posts = site.posts | sort: 'date' | reverse %}
     {% for post in ordered_posts %}
     <article class="card-wrapper card">
       <a
@@ -61,7 +59,7 @@ all_normal[i] %} {% endfor %} {% endif %}
             <h1 class="card-title my-2 mt-md-0">{{ post.title }}</h1>
 
             <div class="card-text content mt-0 mb-3">
-              <p>{% include post-description.html %}</p>
+              <p> {% include post-description.html %} </p>
             </div>
 
             <div class="post-meta flex-grow-1 d-flex align-items-end">
