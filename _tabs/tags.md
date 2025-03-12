@@ -6,7 +6,7 @@ title: "Projects"
 permalink: /projects/
 ---
 
-## All Projects
+## Projects
 
 <ul>
   {% assign all_projects = site.posts | sort: 'date' %}

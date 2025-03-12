@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "RockSat-X at Virginia Tech"
+title: "Party Table"
 date: 2022-07-10
 categories: [Hardware]
 order: 10
