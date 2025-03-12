@@ -17,8 +17,8 @@ The demo we created was a mock walk-through of adjusting the valves in a plumbin
 This system significantly reduces the risk of error in high severity maintenance jobs because it indicates to the user exactly what should be done and where. Workers can confidently trust that their work is correct because they are being assisted by our tool. We also provide confidence displays so that the user can make an informed decision about whether to accept the prompt given to them by our system.
 
 ## Technical
-To achieve the goals described in the 'About' section, the system combines multiple complex parts which are summarized in this diagram:
-![alt text](../assets/images/pfp_cropped.jpg)
+To achieve the goals described in the 'About' section, the system combines multiple complex parts which are summarized in this diagram:\n
+![alt text](../assets/images/ar-project/ar-system.png)
 
 ### Modules
 The system has various distinct modules which take various inputs from other modules or the environemnt. The inputs to the overall system were simply a QR code holding an instruction filename, user inputs for navigation, and a continous video stream of the environment seen by the user. 
