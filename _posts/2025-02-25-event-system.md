@@ -21,7 +21,7 @@ With a list of events in global memory, any system can publish or subscribe to t
 
 There is still one additional problem with the system as described at this point. If an object is created after the program starts, a very common action, it may need data that is sourced from another subsystem immediately. However, the system makes no guarentees about when events will fire, so that object may not see an update for a long time. To remedy this, I've implemented caching into the event system. All global events that pass data will cache the most recent data sent, so that late spawning objects can query the system immediately. 
 
-A last thing I want to mention about this system is that I enforce maintainable habits by only allowing a single, generic parameter to pass through. This means that if a developer wants to pass more than one piece of information through an event, they should make their own data type to encapsulate and convey what each parameter means. For example:
+Another thing I want to mention about this system is that I enforce maintainable habits by only allowing a single, generic parameter to pass through. This means that if a developer wants to pass more than one piece of information through an event, they should make their own data type to encapsulate and convey what each parameter means. For example:
 
 ```C#
 // This is confusing 
@@ -39,4 +39,6 @@ public struct PlayerConnectionData
 Event<PlayerConnectionData> PlayerConnected;
 ```
 
-I've learned all that I've discussed in this post though a lot of iteration and research, mainly though Locomotive 115 which is covered in another post on my site here. Checkout my github to see the implementation (link at the bottom of the left side bar)!
+One final thing to mention is about how I combat the levels of misdirection and fragmented logic while using this system. If abused, the event system can quickly make debugging nearly impossible as various event handlers will add snippets of logic, then produce another event which will in turn be handled and filtered by even more logic and so on. Sequencing is also difficult to see at a glance because everything is event driven rather than neatly packed in a function. To solve both of these problems, I will introduce a sequencing event layer between the event system and any subsystems which need to coordinate. This extra layer intercepts all raw events and performs all logical filtering and sequencing before distrubting events as commands to the child subsystems under it. This means that a single sequencer class is handling all the logic making debugging and flow analysis much easier. 
+
+I've learned all that I've discussed in this post though a lot of iteration and research, mainly though Locomotive 115 and my developer console which are covered in other posts on my site here. Checkout my github to see the implementation (link at the bottom of the left side bar)!
