@@ -23,7 +23,7 @@ There is still one additional problem with the system as described at this point
 
 Another thing I want to mention about this system is that I enforce maintainable habits by only allowing a single, generic parameter to pass through. This means that if a developer wants to pass more than one piece of information through an event, they should make their own data type to encapsulate and convey what each parameter means. For example:
 
-```C#
+```c#
 // This is confusing 
 Event<uint, int, bool, string> PlayerConnected;
 
